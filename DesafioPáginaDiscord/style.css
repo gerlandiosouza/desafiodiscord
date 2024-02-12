@@ -1,0 +1,371 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: auto;
+    margin: 0;
+}
+
+header {
+    display: block;
+    justify-content: center;
+    align-content: center;
+    text-align: left;
+    background-image: url(assets/img/banner/Header\ Background.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+    margin: 0;
+    padding-block: 69px;
+    position: relative;
+
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding-inline: 24px;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+
+
+}
+
+nav h1 {
+    font-family: 'Luckiest guy';
+    font-weight: 400;
+    padding-right: 100px;
+    margin-bottom: 28px;
+    font-size: 32px;
+}
+
+p,
+a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+
+}
+
+p {
+    line-height: 21.79px;
+}
+
+nav .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 24px;
+    align-items: center;
+    justify-content: center;
+}
+
+nav .buttons a {
+
+    text-decoration: none;
+    list-style: none;
+    padding-block: 10px;
+    text-align: center;
+    padding-inline: 70px;
+
+}
+
+nav .buttons .button-a {
+    background-color: white;
+    border-radius: 28px;
+    padding-block: 13px;
+    padding-inline: 110px;  
+}
+
+nav .buttons .button-b {
+    background-color: #23272A;
+    border-radius: 28px;
+    padding-block: 13px;
+    padding-inline: 70px;
+    color: white;
+}
+
+main {
+    display: block;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+main p {
+    color: #23272A;
+
+}
+
+h3 {
+    font: 24px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 32.6px;
+    font-weight: 800;
+    margin-bottom: 28px;
+    margin-top: 25px;
+    color: #23272A;
+}
+
+.sec-2,
+.sec-4 {
+    background-color: #f6f6f6;
+}
+
+.sec-1,
+.sec-2,
+.sec-3,
+.sec-4 {
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 35px;
+}
+
+
+.sec-2 {
+    padding-top: 40px;
+    margin: 0;
+    
+   
+}
+
+.sec-2 h3{
+    
+    margin-inline: 20px;
+}
+
+.sec-2 p{
+    
+    margin-inline: 20px;
+}
+
+.sec-2 img{
+    
+    margin-inline: 20px;
+}
+.sec-4 h3 {
+    font-family: 'Luckiest guy';
+    font-size: 32px;
+}
+
+.sec-4 {
+    padding-top: 30px;
+    margin: 0; 
+   
+}
+
+.sec-4 h3{
+    
+    margin-inline: 20px;
+}
+
+.sec-4 p{
+    
+    margin-inline: 20px;
+}
+
+.sec-4 img{
+    
+    margin-inline: 20px;
+}
+
+
+footer {
+    padding-block: 40px;
+    background-color: #23272A;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width: 800px) {
+
+    header {
+        padding-bottom: 100px;
+        padding-top: 80px;
+    }
+
+    nav {
+        max-width: 756px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    nav h1 {
+        font-size: 56px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 450px;
+    }
+
+    nav p {
+        font-size: 16px;
+    }
+
+    nav .buttons .button-a {
+
+        padding-inline: 25px;
+    }
+
+    nav .buttons .button-b {
+        padding-inline: 20px;
+    }
+
+    main {
+        width: 1280px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .sec-1,
+    .sec-2,
+    .sec-3,
+    .sec-4 {
+        height: 448px;
+
+    }
+
+    .sec-1,
+    .sec-3 {
+        display: flex;
+        width: 971px;
+        padding-inline: 154px;
+    }
+
+    .sec-2,
+    .sec-4 {
+        width: 100%;
+    }
+
+    .sec-1 .headline-1 {
+
+        width: 405px;
+        height: 394px;
+
+    }
+
+    .sec-1 {
+        margin-top: 60px;
+    }
+
+    .sec-1 img {
+        max-width: 607px;
+        height: 394px;
+
+    }
+
+    .sec-1 .headline-1 h3 {
+        font-size: 40px;
+        line-height: 54px;
+        width: 350px
+    }
+
+    .sec-1 .headline-1 p {
+        font-size: 16px;
+        line-height: 21.79px;
+    }
+
+    .sec-2 .headline-2 {
+        float: left;
+        width: 405px;
+        height: 394px;
+        margin-top: 120px;
+        margin-bottom: auto;
+        margin-left: 145px;
+    }
+
+    .sec-2 {
+        margin-top: 60px;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .sec-2 img {
+        max-width: 607px;
+        height: 394px;
+
+    }
+
+    .sec-2 .headline-2 h3 {
+        font-size: 40px;
+        line-height: 54px;
+        width: 350px
+    }
+
+    .sec-2 .headline-2 p {
+        font-size: 16px;
+        line-height: 21.79px;
+    }
+
+    .sec-3 .headline-3 {
+
+        width: 405px;
+        height: 394px;
+        margin-top: 80px;
+
+    }
+
+    .sec-3 {
+        margin-top: 60px;
+        gap: 40px
+    }
+
+    .sec-3 img {
+        max-width: 607px;
+        height: 394px;
+
+    }
+
+    .sec-3 .headline-3 h3 {
+        font-size: 40px;
+        line-height: 54px;
+        width: 350px
+    }
+
+    .sec-3 .headline-3 p {
+        font-size: 16px;
+        line-height: 21.79px;
+    }
+
+    .sec-4 {
+        display: flex;
+        flex-direction: column;
+        padding-top: 40px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        height: 744px;
+
+
+    }
+
+    .sec-4 .headline-4 p {
+        font-size: 16px;
+        line-height: 21.79px;    
+        width: 820px;
+    }
+
+    .sec-4 img {
+        
+        width: 784px;
+    }
+
+    .sec-4 h3 {
+        font-weight: 400;
+        line-height: 40px;
+        font-size: 40px;
+    }
+
+
+    
+}
